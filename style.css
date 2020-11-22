@@ -1,19 +1,10 @@
-header {
-  background-color: #651fff;
-}
-
 h1 {
   color: #651fff;
 }
 
 h2 {
   color: rgb(20, 29, 60);
-}
-
-video {
-  width: 100%;
-  height: auto;
-  /* box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); */
+  font-size: 4vw;
 }
 
 .bold {
@@ -22,7 +13,7 @@ video {
 }
 
 #ttglogo {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -57,11 +48,7 @@ footer {
   color: white;
 }
 
-.accordion {
-  width: 100%;
-}
-
-#disclaimer {
+.disclaimer {
   font-size: 8pt;
 }
 
@@ -86,4 +73,16 @@ a {
 a:hover {
   color: grey;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bigcard {
+    width: 98%;
+  }
+  #ringvid {
+    height: 250px;
+  }
+  h2 {
+    font-size: 6vw;
+  }
 }
